@@ -38,5 +38,5 @@ class Student{
     }
 }
 
-let student = Student(firstName:"test",lastName:"test",points:1)
+let student = Student(firstName:"Mateusz",lastName:"Kłos",points:1)
 student.printS()
