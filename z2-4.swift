@@ -1,7 +1,7 @@
 import Foundation
 
 //z2
-var points = 2.0;
+var points = 5.0;
 print("Student has \(points) points");
 
 //z3
@@ -33,10 +33,6 @@ class Student{
         self.lastName = lastName
         self.points = points
     }
-    func printS(){
-        print("\(firstName) -  \(lastName) - \(points)")
-    }
 }
 
-let student = Student(firstName:"Mateusz",lastName:"Kłos",points:1)
-student.printS()
+

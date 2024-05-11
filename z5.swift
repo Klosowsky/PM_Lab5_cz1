@@ -15,8 +15,9 @@ class Student{
     }
 
     internal func showStudent(){
+	var satisfactionLevel = round(pow(Double.random(in:0...1), (110 - points) / 100) * 20)
         var auraColor:String
-        switch points {
+        switch satisfactionLevel {
             case 0...5:
             auraColor = "red"
             case 6...10:
